@@ -1,0 +1,7 @@
+﻿# Question 1: Duplicate Submissions Script
+
+**Execution & Screenshot:**
+[Insert Screenshot of the output below here]
+
+**Explanation:**
+I ran the script and it correctly found the duplicate file and backed up the unique ones. I used md5sum because it checks the actual file content instead of just the filename, making it a reliable way to find duplicates. I used 2>> error.log to redirect any error messages to a separate file so it doesn't clutter the terminal. I also used an associative array to keep track of the hashes so the script can easily remember which files it has already seen.
